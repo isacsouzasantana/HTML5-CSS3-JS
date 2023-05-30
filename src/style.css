@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&family=Ubuntu:wght@500&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    align-items: center;
+    justify-content: center;
+    background-image: url('./imagens/Rick\ and\ Morty\ [1920x1080].png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 920px;
+}
+
+.container {
+    height: 400px;
+    width: 400px;
+    display: flex;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+    border: rgb(0, 0, 0) 4px solid;
+    border-radius: 10px;
+    
+}
+
+#button {
+    width: 150px;
+    height: 60px;
+    background-color: #85f900;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .8s;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    margin-top: 25px;
+}
+
+#button:hover {
+    background-color: white;
+    color: #000;
+}
+
+.input {
+    font-size: 15px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.calc {
+    margin-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.labe {
+    display: flex;
+    margin-top: 7px;
+}
